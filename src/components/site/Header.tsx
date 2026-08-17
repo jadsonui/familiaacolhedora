@@ -6,8 +6,8 @@ const NAV = [
   { href: "#inicio", label: "Início" },
   { href: "#sobre", label: "Sobre o Lar" },
   { href: "#familia-acolhedora", label: "Família Acolhedora" },
-  { href: "#participar", label: "Como Participar" },
-  { href: "#links-uteis", label: "Links Úteis" },
+  { href: "#contato", label: "Contato" },
+  { href: "#mapa", label: "Mapa" },
 ];
 
 export function Header() {
@@ -43,8 +43,8 @@ export function Header() {
               {item.label}
             </a>
           ))}
-          <Cta href="#familia-acolhedora" className="ml-3 px-5 py-2.5 text-sm">
-            Quero saber mais
+          <Cta href="#contato" className="ml-3 px-5 py-2.5 text-sm">
+            Fale conosco
           </Cta>
         </nav>
 
@@ -76,8 +76,8 @@ export function Header() {
               </a>
             ))}
           </nav>
-          <Cta href="#familia-acolhedora" className="mt-4 w-full" >
-            Quero saber mais
+          <Cta href="#contato" className="mt-4 w-full">
+            Fale conosco
           </Cta>
         </div>
       )}
