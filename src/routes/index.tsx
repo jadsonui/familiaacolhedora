@@ -21,7 +21,7 @@ export const Route = createFileRoute("/")({
       {
         property: "og:description",
         content:
-          "Acolher é oferecer proteção, cuidado e um lugar seguro para uma criança ou adolescente.",
+          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },

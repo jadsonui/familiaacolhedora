@@ -77,14 +77,20 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lar Franciscano de Menores de Piracicaba" },
+      { title: "Família Acolhedora — Lar Franciscano de Piracicaba" },
       {
         name: "description",
         content:
-          "Organização da Sociedade Civil parceira do Município de Piracicaba em serviços de acolhimento de crianças e adolescentes.",
+          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { property: "og:title", content: "Família Acolhedora — Lar Franciscano de Piracicaba" },
+      { name: "twitter:title", content: "Família Acolhedora — Lar Franciscano de Piracicaba" },
+      { property: "og:description", content: "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar." },
+      { name: "twitter:description", content: "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c5c694a2d7080560a78a746720861f0/id-preview-117974a2--173af51b-95c5-4204-974b-ec1d0687daa1.lovable.app-1786984474418.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/0c5c694a2d7080560a78a746720861f0/id-preview-117974a2--173af51b-95c5-4204-974b-ec1d0687daa1.lovable.app-1786984474418.png" },
     ],
     links: [
       {
