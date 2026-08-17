@@ -6,8 +6,8 @@ const NAV = [
   { href: "#inicio", label: "Início" },
   { href: "#sobre", label: "Sobre o Lar" },
   { href: "#familia-acolhedora", label: "Família Acolhedora" },
-  { href: "#participar", label: "Como Participar" },
-  { href: "#links-uteis", label: "Links Úteis" },
+  { href: "#contato", label: "Contato" },
+  { href: "#mapa", label: "Mapa" },
 ];
 
 export function Header() {
