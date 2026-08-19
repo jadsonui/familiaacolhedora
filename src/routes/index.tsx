@@ -6,7 +6,47 @@ import { Cta } from "@/components/site/Cta";
 const FORM_URL =
   "https://docs.google.com/forms/d/e/1FAIpQLSf0FwK1IAcQOMT59p8HpY8IIWYsrzpPxIiJMtiKb2zur39z8g/viewform";
 const WHATSAPP_URL = "https://wa.me/5519998289345";
-const MAPA_URL = "https://familiaacolhedora.org.br/mapa/";
+
+const SERVICOS = [
+  {
+    cidade: "Santa Bárbara d'Oeste",
+    nome: "Ninho – Serviço de Acolhimento em Família Acolhedora",
+    telefone: "(19) 3454-0795",
+    whatsapp: true,
+    obs: "telefone/WhatsApp",
+  },
+  {
+    cidade: "Mombuca",
+    nome: "Teto & Afeto – Família Acolhedora",
+    telefone: "(19) 99153-3767",
+    whatsapp: false,
+  },
+  {
+    cidade: "Limeira",
+    nome: "Serviço de Acolhimento em Família Acolhedora",
+    telefone: "(19) 340",
+    whatsapp: false,
+    obs: "CEPROSOM",
+  },
+  {
+    cidade: "Capivari",
+    nome: "Teto & Afeto – Família Acolhedora",
+    telefone: "(19) 99153-3767 / (19) 2146-0134",
+    whatsapp: false,
+  },
+  {
+    cidade: "Rafard",
+    nome: "Teto & Afeto – Família Acolhedora",
+    telefone: "(19) 99153-3767 / (19) 2146-0134",
+    whatsapp: false,
+  },
+  {
+    cidade: "Americana",
+    nome: "APAM – Serviço de Família Acolhedora",
+    telefone: "(19) 99927-9585",
+    whatsapp: false,
+  },
+];
 
 export const Route = createFileRoute("/")({
   head: () => ({
