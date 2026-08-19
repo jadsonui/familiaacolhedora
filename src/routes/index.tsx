@@ -15,13 +15,13 @@ export const Route = createFileRoute("/")({
       {
         name: "description",
         content:
-          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar.",
+          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Piracicaba e saiba como participar.",
       },
       { property: "og:title", content: "Família Acolhedora — Lar Franciscano de Piracicaba" },
       {
         property: "og:description",
         content:
-          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Menores de Piracicaba e saiba como participar.",
+          "Conheça o Serviço de Acolhimento em Família Acolhedora do Lar Franciscano de Piracicaba e saiba como participar.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -41,7 +41,7 @@ function Index() {
           <div className="mx-auto max-w-[880px] px-5 py-16 text-center sm:py-20 lg:py-24">
             <img
               src={logo.url}
-              alt="Lar Franciscano de Menores de Piracicaba — nós somos o lar do amor"
+              alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
               className="mx-auto h-auto w-full max-w-sm"
               width={1600}
               height={430}
@@ -72,13 +72,13 @@ function Index() {
         <section id="sobre" className="scroll-mt-24">
           <div className="mx-auto max-w-[880px] px-5 py-16 sm:py-20">
             <h2 className="text-2xl font-extrabold text-foreground sm:text-3xl">
-              Lar Franciscano de Menores
+              Lar Franciscano
             </h2>
             <div className="mt-6 space-y-5 text-base leading-relaxed text-muted-foreground sm:text-lg">
               <p>
-                O Lar Franciscano de Menores é uma Organização da Sociedade Civil parceira do
-                Município de Piracicaba na execução de serviços de acolhimento destinados a crianças
-                e adolescentes, integrando a rede de Proteção Social Especial de Alta Complexidade.
+                O Lar Franciscano é uma Organização da Sociedade Civil parceira do Município de
+                Piracicaba na execução de serviços de acolhimento destinados a crianças e
+                adolescentes, integrando a rede de Proteção Social Especial de Alta Complexidade.
               </p>
               <p>
                 A instituição executa o Serviço de Acolhimento Institucional para Crianças e
