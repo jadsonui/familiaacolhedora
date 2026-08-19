@@ -255,7 +255,7 @@ function Index() {
         <div className="mx-auto flex max-w-[1080px] flex-col gap-6 px-5 py-12 md:flex-row md:items-center md:justify-between">
           <div className="min-w-0">
             <p className="text-base font-bold text-foreground">
-              Lar Franciscano de Menores de Piracicaba
+              Lar Franciscano de Piracicaba
             </p>
             <p className="mt-1 text-sm text-muted-foreground">
               Serviço de Acolhimento em Família Acolhedora
@@ -270,9 +270,6 @@ function Index() {
             </a>
             <a href={FORM_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">
               Formulário de inscrição
-            </a>
-            <a href={MAPA_URL} target="_blank" rel="noopener noreferrer" className="hover:underline">
-              Mapa das Famílias Acolhedoras
             </a>
           </nav>
         </div>
