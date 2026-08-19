@@ -7,7 +7,7 @@ const NAV = [
   { href: "#sobre", label: "Sobre o Lar" },
   { href: "#familia-acolhedora", label: "Família Acolhedora" },
   { href: "#contato", label: "Contato" },
-  { href: "#mapa", label: "Mapa" },
+  { href: "#servicos", label: "Serviços" },
 ];
 
 export function Header() {
@@ -23,10 +23,10 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 border-b border-border/70 bg-background/95 backdrop-blur">
       <div className="mx-auto grid max-w-[1280px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 lg:px-8">
-        <a href="#inicio" className="flex min-w-0 items-center" aria-label="Lar Franciscano de Menores de Piracicaba — início">
+        <a href="#inicio" className="flex min-w-0 items-center" aria-label="Lar Franciscano de Piracicaba — início">
           <img
             src={logo.url}
-            alt="Lar Franciscano de Menores de Piracicaba — nós somos o lar do amor"
+            alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
             className="h-10 w-auto max-w-full sm:h-12"
             width={1600}
             height={430}
