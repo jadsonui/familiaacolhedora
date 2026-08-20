@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/logo-lar-franciscano.png";
+import banner from "@/assets/familia_banner.png";
 import { Header } from "@/components/site/Header";
 import { Cta } from "@/components/site/Cta";
 
