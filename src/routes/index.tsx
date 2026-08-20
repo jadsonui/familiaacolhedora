@@ -88,7 +88,7 @@ function Index() {
             />
           </div>
           <div className="mx-auto max-w-[880px] px-5 py-10 text-center sm:py-14 lg:py-16">
-            <h1 className="mt-10 text-3xl font-extrabold leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
+            <h1 className="text-3xl font-extrabold leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
               Família Acolhedora
             </h1>
             <span
