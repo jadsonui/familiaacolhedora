@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logo from "@/assets/logo-lar-franciscano.png.asset.json";
+import logo from "@/assets/logo-lar-franciscano.png";
 import { Cta } from "./Cta";
 
 const NAV = [
@@ -25,7 +25,7 @@ export function Header() {
       <div className="mx-auto grid max-w-[1280px] grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-5 py-3 lg:px-8">
         <a href="#inicio" className="flex min-w-0 items-center" aria-label="Lar Franciscano de Piracicaba — início">
           <img
-            src={logo.url}
+            src={logo}
             alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
             className="h-10 w-auto max-w-full sm:h-12"
             width={1600}

@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import logo from "@/assets/logo-lar-franciscano.png.asset.json";
+import logo from "@/assets/logo-lar-franciscano.png";
 import { Header } from "@/components/site/Header";
 import { Cta } from "@/components/site/Cta";
 
@@ -80,7 +80,7 @@ function Index() {
         <section id="inicio" className="scroll-mt-24 border-b border-border/60">
           <div className="mx-auto max-w-[880px] px-5 py-16 text-center sm:py-20 lg:py-24">
             <img
-              src={logo.url}
+              src={logo}
               alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
               className="mx-auto h-auto w-full max-w-sm"
               width={1600}
