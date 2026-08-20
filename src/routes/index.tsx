@@ -78,14 +78,16 @@ function Index() {
       <main>
         {/* HERO */}
         <section id="inicio" className="scroll-mt-24 border-b border-border/60">
-          <div className="mx-auto max-w-[880px] px-5 py-16 text-center sm:py-20 lg:py-24">
+          <div className="mx-auto max-w-[880px] px-5 pt-10 text-center sm:pt-14 lg:pt-16">
             <img
-              src={logo}
-              alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
-              className="mx-auto h-auto w-full max-w-sm"
-              width={639}
-              height={151}
+              src={banner}
+              alt="Família abraçada em um parque ao pôr do sol"
+              className="mx-auto h-auto w-full rounded-2xl"
+              width={1920}
+              height={540}
             />
+          </div>
+          <div className="mx-auto max-w-[880px] px-5 py-10 text-center sm:py-14 lg:py-16">
             <h1 className="mt-10 text-3xl font-extrabold leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
               Família Acolhedora
             </h1>
