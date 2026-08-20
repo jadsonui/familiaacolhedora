@@ -83,8 +83,8 @@ function Index() {
               src={logo}
               alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
               className="mx-auto h-auto w-full max-w-sm"
-              width={1600}
-              height={430}
+              width={639}
+              height={151}
             />
             <h1 className="mt-10 text-3xl font-extrabold leading-[1.1] text-foreground sm:text-4xl lg:text-5xl">
               Família Acolhedora

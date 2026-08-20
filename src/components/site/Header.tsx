@@ -28,8 +28,8 @@ export function Header() {
             src={logo}
             alt="Lar Franciscano de Piracicaba — nós somos o lar do amor"
             className="h-10 w-auto max-w-full sm:h-12"
-            width={1600}
-            height={430}
+            width={639}
+            height={151}
           />
         </a>
 
